@@ -9,11 +9,8 @@ A **YouTube Clone** built using **Flutter**, featuring real **search** and **vid
 ✅ Built with Flutter for cross-platform support  
 
 ## 📸 Screenshots
-
-
-
-![Preview 7](https://github.com/itsdevzam/YTClone/blob/main/assets/imagesGitHub/7.png)
 ![Preview 8](https://github.com/itsdevzam/YTClone/blob/main/assets/imagesGitHub/8.png)
+![Preview 7](https://github.com/itsdevzam/YTClone/blob/main/assets/imagesGitHub/7.png)
 ![Preview 5](https://github.com/itsdevzam/YTClone/blob/main/assets/imagesGitHub/5.png)
 ![Preview 6](https://github.com/itsdevzam/YTClone/blob/main/assets/imagesGitHub/6.png)
 ![Preview 2](https://github.com/itsdevzam/YTClone/blob/main/assets/imagesGitHub/2.png)
