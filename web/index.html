@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="youtube_clone">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+  <title>YT Clone</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- Preloader -->
+<div class="preloader">
+  <div id="animation-container">
+    <img width="80" height="80" src="assets/img/1.png" class="animation-image" alt="" />
+    <img width="80" height="80" src="assets/img/2.png" class="animation-image" alt="" />
+    <img width="80" height="80" src="assets/img/3.png" class="animation-image" alt="" />
+    <img width="80" height="80" src="assets/img/4.png" class="animation-image" alt="" />
+  </div>
+</div>
+
+<script src="flutter_bootstrap.js" async></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var images = document.querySelectorAll(".animation-image");
+    var currentIndex = 0;
+
+    function cycleImages() {
+      images.forEach((img, index) => {
+        img.style.display = index === currentIndex ? "block" : "none";
+      });
+      currentIndex = (currentIndex + 1) % images.length;
+    }
+
+    setInterval(cycleImages, 250); // Change image every 250ms
+    cycleImages(); // Initialize first cycle
+  });
+</script>
+</body>
+</html>

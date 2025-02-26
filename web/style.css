@@ -1,0 +1,79 @@
+/* Reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #111;
+  background-color: #000; /* Default background as black */
+}
+.theme-dark body {
+  color: #FFF;
+}
+
+/* Loader */
+.preloader {
+  position: fixed;
+  inline-size: 100%;
+  block-size: 100%;
+  display: grid;
+  place-items: center;
+  background-color: #000; /* Black background */
+  color: #FFF; /* White text */
+}
+.fact-text {
+    margin-top: 10px; /* Adjusted margin for closer positioning */
+    font-size: 1.2rem;
+    color: #FFF; /* White text */
+    text-align: center;
+}
+.preloader .animation-image {
+  display: none;
+}
+.theme-dark .preloader {
+  background-color: #000;
+  color: #FFF;
+}
+.preloader-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Reduced gap for better alignment */
+  align-items: center;
+}
+.preloader .loader {
+  width: 140px;
+  height: 0.25rem;
+  display: inline-block;
+  position: relative;
+  background: rgba(255, 255, 255, 0.15);
+  overflow: hidden;
+  border-radius: 50rem;
+}
+.preloader .loader::after {
+  content: "";
+  width: 30px;
+  height: 4.8px;
+  background: #FFF;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  animation: animloader 2000ms linear infinite;
+  border-radius: 50rem;
+}
+.animation-image {
+  display: none;
+}
+
+/* Keyframes */
+@keyframes animloader {
+  0% {
+    left: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    left: 100%;
+    transform: translateX(0%);
+  }
+}
