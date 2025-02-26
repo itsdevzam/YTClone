@@ -8,6 +8,17 @@ A **YouTube Clone** built using **Flutter**, featuring real **search** and **vid
 ✅ Smooth & responsive UI  
 ✅ Built with Flutter for cross-platform support
 
+##Screenshot
+![Preview]([https://user-images.githubusercontent.com/your-unique-id/your-image.png](https://github.com/itsdevzam/YTClone/blob/main/assets/imagesGitHub/1.png)
+![Preview]([https://user-images.githubusercontent.com/your-unique-id/your-image.png](https://github.com/itsdevzam/YTClone/blob/main/assets/imagesGitHub/2.png)
+![Preview]([https://user-images.githubusercontent.com/your-unique-id/your-image.png](https://github.com/itsdevzam/YTClone/blob/main/assets/imagesGitHub/3.png)
+![Preview]([https://user-images.githubusercontent.com/your-unique-id/your-image.png](https://github.com/itsdevzam/YTClone/blob/main/assets/imagesGitHub/4.png)
+![Preview]([https://user-images.githubusercontent.com/your-unique-id/your-image.png](https://github.com/itsdevzam/YTClone/blob/main/assets/imagesGitHub/5.png)
+![Preview]([https://user-images.githubusercontent.com/your-unique-id/your-image.png](https://github.com/itsdevzam/YTClone/blob/main/assets/imagesGitHub/6.png)
+![Preview]([https://user-images.githubusercontent.com/your-unique-id/your-image.png](https://github.com/itsdevzam/YTClone/blob/main/assets/imagesGitHub/7.png)
+![Preview]([https://user-images.githubusercontent.com/your-unique-id/your-image.png](https://github.com/itsdevzam/YTClone/blob/main/assets/imagesGitHub/8.png)
+
+
 ## 🚀 Getting Started
 ### Prerequisites
 - Flutter SDK installed ([Download Flutter](https://flutter.dev/docs/get-started/install))
